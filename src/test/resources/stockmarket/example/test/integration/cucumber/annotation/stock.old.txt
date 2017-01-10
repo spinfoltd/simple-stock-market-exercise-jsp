@@ -1,0 +1,6 @@
+Feature: When you query a student
+
+  Scenario: Find student of a given student id
+    Given A studentID 
+    When the user of your rest api queries student
+    Then returns student resource
